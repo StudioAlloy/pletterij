@@ -1,0 +1,146 @@
+* {
+box-sizing: border-box;
+}
+body {
+  /* 20 of 534 */
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+a, a:visited {
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom: 2px solid #e16;
+}
+a:hover {
+  border-bottom: 4px solid #e16;
+}
+a.btn {
+    background: #e16;
+    border-radius: .3em;
+    padding: 1em 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    border: .2em solid #fff;
+    margin: 30px 0;
+    display: inline-block;
+    width: auto;
+}
+a.btn:hover {
+    background: #fff;
+    color: #000;
+    font-size: 1.3rem;
+    border: .2em solid #e16;
+}
+h2 {
+  font-weight: 400;
+}
+/* Header
+———————————————————————————————————— */
+.header,
+a, a:visited, a:hover {
+color: #fff;
+text-shadow: 2px 2px 3px rgba(0,0,0,.2);
+}
+.header {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px;
+  text-align: center;
+}
+.headericon {
+  border-radius: 10px;
+}
+/* END Header
+———————————————————————————————————— */
+body,
+.header,
+.ways {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ways {
+  background: #fff;
+  width: 100%;
+}
+.sub {
+  color: #fff;
+  background: #e16;
+}
+.way {
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem;
+}
+.way > * {
+  width: 50%;
+  padding: 30px;
+}
+.way img {
+width: 100%;
+}
+/* Footer
+———————————————————————————————————— */
+footer {
+  background: #e16;
+  color: #fff;
+  width: 100%
+}
+footer .sa-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer a.sa-credits {
+  text-decoration: none;
+  color: #fff;
+}
+.sa-credits,
+.sa-col {
+    padding: 15px 45px;
+}
+.sa-credits {
+  background: rgba(0,0,0,.2);
+}
+.sa-credits p.sa-credits {
+  font-size: 14px;
+  font-weight: 700;
+}
+.sa-credits:hover {
+  background: rgba(0,0,0,.4);
+}
+.sa-credits img {
+  width: 40px;
+}
+.sa-linkback {
+  display: inline-block;
+  margin-right: 5px;
+  text-align: right;
+}
+.sa-linkback a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+}
+.sa-linkback p {
+  margin-bottom: 0;
+}
+.sa-linkback span {
+  font-size: 9px;
+  margin-right: 5px;
+}
+/* END
+———————————————————————————————————— */
